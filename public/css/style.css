@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex:1;
+}
+
+.navbar{
+    height: 5rem;
+}
+
+.fa-compass{
+    color: red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 1rem !important;
+    /* font-weight: 500 !important; */
+}
+
+
+/* home ejs wali css ki styling */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 500;
+}
+
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+.card-img-overlay{
+    
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+
+/* show ejs */
+.show-img{
+    height: 40vh;
+    /* margin-top: 2rem; */
+   
+    border-radius: 1rem;
+}
+
+
+
+.btns{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+.footer{
+    height: 5rem;
+    /* background-color: rgb(244, 232, 232); */
+    align-content: center;
+    text-align: center;
+}
+
+.fa-instagram{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: red;
+    margin-right: 0.5rem;
+}
+
+.fa-twitter{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+    margin-right: 0.5rem;
+}
+
+.fa-facebook{
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+
+
+
+
